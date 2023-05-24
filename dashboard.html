@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+
+    <!-- google fonts  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;900&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap cdn  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="Dashboard.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid header_container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <h1 class="dashboard" href="#">Dashboard</h1>
+          <img class="department" src="policeimg.png" alt="" />
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+              ></a>
+            </li>
+          </ul>
+          <div class="circle">
+            <img class="admin" src="admin.png" alt="" />
+            <h4>Admin</h4>
+          </div>
+          <form class="d-flex">
+            <input
+              class="form-control me-2 search"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-success search_button"
+              id="search_button"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- left compartment -->
+
+    <div class="">
+      <table class="table table-hover left_compartment">
+        <tr>
+          <td>
+            <button
+              class="btn btn-outline-* button menu"
+              id="search_button"
+              type="submit"
+            >
+              Home
+            </button>
+            
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button
+              class="btn btn-outline-* button menu"
+              id="search_button"
+              type="submit"
+            ><a href="addform.html">Add</a>
+              
+              
+            </button>
+           
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button
+              class="btn btn-outline-* button menu"
+              id="search_button"
+              type="submit"
+            >
+            <a href="updateform.html">Update</a>
+            </button>
+           
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button
+              class="btn btn-outline-* button menu"
+              id="search_button"
+              type="submit"
+            >
+            <a href="delete.html">Delete</a>
+            </button>
+            
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <button
+              class="btn btn-outline-* button menu"
+              id="search_button"
+              type="submit"
+            >
+              List
+            </button>
+           
+          </td>
+        </tr>
+        <!-- <form method action="">
+          <input type="submit" class="button" value ="Add"> 
+          <br><br>
+          <input type="submit" class="button" value ="Update"> 
+          <br><br>
+          <input type="submit" class="button" value ="Delete"> 
+          <br><br>
+          <input type="submit" class="button" value ="List"> 
+          <br><br>
+          <input type="submit" class="button" value ="Add"> 
+          <br><br>
+        </form> -->
+      </table>
+    </div>
+
+    <!-- home  -->
+
+    <div class="info">
+      <h2>Total Cases</h2>
+      <h2></h2>
+    </div>
+
+    <div class="criminal_info">
+      <h2 class="cri_no">Total Criminals</h2>
+    </div>
+
+    <div class="solder_info">
+      <div class="solder">
+        <h2 class="sol_text">Total Solders</h2>
+        <br />
+        <h2 class="sol_no">200</h2>
+      </div>
+    </div>
+
+    <!-- top most dangerous criminals  -->
+
+    <div class="dangerous">
+      <h2 class="top_criminal">Top Criminals</h2>
+
+      <table class="table table-hover top_criminal_table">
+        <tr>
+          <td class="head">Id No</td>
+          <td class="head">Name</td>
+          <td class="head">Crime</td>
+          <td class="head">Jail</td>
+        </tr>
+        <tr>
+          <td>JD111</td>
+          <td>Black Dahlia</td>
+          <td>Serial Crime</td>
+          <td>Central Jail</td>
+        </tr>
+        <tr>
+          <td>JD289</td>
+          <td>Zodiac</td>
+          <td>Plane Hijacked</td>
+          <td>Gotham Central Jail</td>
+        </tr>
+        <tr>
+          <td>JD420</td>
+          <td>Ajmal Kasab</td>
+          <td>Torrorist Attack</td>
+          <td>Yerwada Central Jail</td>
+        </tr>
+        <tr>
+          <td>JD367</td>
+          <td>Harshad Mehta</td>
+          <td>Stock Market Scam</td>
+          <td>Mumbai Central Jail</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

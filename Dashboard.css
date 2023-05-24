@@ -1,0 +1,195 @@
+/*********************** navbar **************************/
+
+.dashboard {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+
+  font-size: 28px;
+  position: relative;
+  left: 20px;
+  top: 5px;
+  color: #f1f6f9;
+}
+.department {
+  width: 70px;
+  height: 80px;
+  position: relative;
+  left: 79%;
+}
+.header_container {
+  background-color: #394867;
+  margin-top: -8px;
+}
+.search {
+  position: relative;
+  left: -570px;
+  width: 400px;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+/* #search_button{
+    color: #F1F6F9;
+}
+.btn{
+   background-color:  #394867 !important;
+} */
+.search_button {
+  position: relative;
+  left: -540px;
+  width: 120px;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #f1f6f9;
+  top: 0px;
+}
+
+.circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  position: relative;
+  left: 13%;
+  background-color: #f1f6f9;
+  border: #f1f6f9 0.5px solid;
+}
+.admin {
+  height: 40px;
+  width: 40px;
+  border: #f1f6f9 0.5px solid;
+  border-radius: 100%;
+}
+h2,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  position: relative;
+  top: -38px;
+  left: 60px;
+  color: #f1f6f9;
+  display: inline;
+}
+h4 {
+  font-size: 22px;
+  position: relative;
+  top: -33px;
+  left: 47px;
+}
+
+/*************** left compartment ****************/
+a{
+  color: #f1f6f9;
+  text-decoration: none
+}
+.left_compartment {
+  height: 675px;
+  width: 12%;
+  background-color: #394867;
+  position: relative;
+  top: 1px;
+  border-radius: 0px 10px 10px 0px;
+  border: 0px solid #394867;
+}
+
+.button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+
+  height: 10px;
+  
+  color: #f1f6f9;
+  position: relative;
+  top: 20px;
+  left: 2rem;
+}
+#search_button {
+  color: #f1f6f9;
+}
+
+/* home  */
+
+.info {
+  height: 180px;
+  width: 20rem;
+  background-color: #394867;
+  position: relative;
+  top: -40rem;
+  left: 20rem;
+  border-radius: 15px;
+}
+.criminal_info {
+  height: 180px;
+  width: 20rem;
+  background-color: #394867;
+  position: relative;
+  top: -51.2rem;
+  left: 48.9rem;
+  border-radius: 15px;
+}
+h2 {
+  color: #f1f6f9;
+  position: relative;
+  top: 35px;
+}
+.cri_no {
+  position: relative;
+  left: 28px;
+  top: 35px;
+}
+.solder_info {
+  height: 180px;
+  width: 20rem;
+  background-color: #394867;
+  position: relative;
+  top: -62.4rem;
+  left: 78rem;
+  border-radius: 15px;
+}
+.solder {
+  text-align: left;
+  position: relative;
+  left: -20px;
+}
+.sol_text {
+  text-align: center;
+}
+.sol_no {
+  font-size: 70px;
+  text-align: center;
+}
+
+/* dangerous criminals  */
+.dangerous {
+  height: 25.2rem;
+  width: 78rem;
+  background-color: #394867;
+  position: relative;
+  top: -60rem;
+  left: 20rem;
+  border-radius: 15px;
+}
+.top_criminal {
+  font-size: 55px;
+  position: relative;
+  top: 29px;
+  left: 53px;
+}
+
+.head {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.top_criminal_table {
+  color: #f1f6f9;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  position: relative;
+  left: 50px;
+  top: 50px;
+  border: 0px none #394867;
+
+  width: 74rem;
+}
